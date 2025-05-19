@@ -35,7 +35,7 @@ main()
     console.log("connected to DB")
 })
 .catch(() => {
-    console.log(err);
+    console.log(error);
 });
 
 async function main() {  
@@ -53,7 +53,7 @@ app.use(express.static(path.join(__dirname, "/public")));
 const store = MongoStore.create({
     mongoUrl: dbUrl, 
     crypto : {
-        secret: process.env.SECRET,
+        secret: "hiii",
     },
     touchAfter: 24 * 3600, 
 });
@@ -64,7 +64,7 @@ store.on("error", () => {
 
 const sessionOptions = {
     store,
-    secret: process.env.SECRET,
+    secret: "hiii",
     resave: false, 
     saveUninitialized: true,
 };
