@@ -1,27 +1,62 @@
 
-# Project-Wanderlust
+# 🌍 WanderLust Project 🏡
 
- This project was created from local system
- It's a Full Stack Project based on MERN Development.  This project buliding idea is to list the hotels of different cities globally so that it can easily accessible to    
- your vacation place.
- 
-#  Frontend:
- HTML5 / CSS3 / JAVA SCRIPT
+🤖 Introduction
 
-# Backend:
-1. NODE.JS
-2. EXPRESS.JS
+WanderLust is a comprehensive Full Stack Web Development project designed to facilitate the browsing and booking of vacation accommodations, including houses, villas, and farmhouses. This platform allows users to add their own properties to the listing, providing a diverse range of options for potential renters. Key features include a seamless booking system that simplifies the reservation process and real-time property location views via Mapbox API. 
+## ✨ Features
 
-# Database:
-1. MONGO-DB
+MongoDB
 
-# Framework
-1. BOOTSTRAP
+Express.js
 
-# Other
-  This project also have implemented with  MVC Freamwork / REST API'S / AJAX / 
+Node.js
 
-  
+Cloudinary for Image Storage
+
+Connect Mongo for Session Storage
+
+Cookie Parser for Parsing Cookies
+
+Dotenv for Environment Variables
+
+EJS for Template Rendering
+
+Express Session for Session Handling
+
+Joi for Data Validation
+
+Mongoose for MongoDB Object Modeling
+
+Multer for File Uploads
 
 
+## ✨ Features
+
+• Technologies Used: HTML, CSS, JavaScript, Bootstrap, EJS
+
+• Features:
+
+
+🔍 User-friendly Interface: For searching and listing properties
+
+🗺️ Mapbox API Integration: For location-based search and property mapping
+
+• Back-end 🛠️
+
+ • Technologies Used: Node.js, Express.js
+
+•Features:
+
+🧩 RESTful API: Handles user interactions
+
+📄 Endpoints: For property listing, login/sign up, and user management
+
+
+Database Management System: MongoDB Atlas
+Features:
+
+🗂️ Structured Database Schema: For efficient data management
+
+🔍 Database Queries: To retrieve and store property and user information
 
